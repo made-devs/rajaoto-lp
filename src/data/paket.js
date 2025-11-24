@@ -708,7 +708,7 @@ export const paketData = [
     id: 17,
     name: 'Paket Racksteer Ultra',
     category: 'racksteer',
-    image: 'racksteer1.webp',
+    image: 'racksteer.webp',
     normalPrice: 2500,
     discountPrice: 750,
     discount: 70,
