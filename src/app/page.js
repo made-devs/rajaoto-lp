@@ -3,6 +3,7 @@ import { paketData } from '../data/paket';
 import { uspData, contactInfo, branding } from '../data/usp';
 import ServiceCategory from '../components/ServiceCategory';
 import USPCarousel from '../components/USPCarousel';
+import PromoSection from '../components/PromoSection';
 
 export default function Home() {
   // Group packages by category
@@ -96,6 +97,9 @@ export default function Home() {
       <div className="relative z-20 -mt-20 mb-20">
         <USPCarousel usps={uspData} />
       </div>
+
+      {/* Promo Section */}
+      <PromoSection />
 
       {/* Services Section */}
       <section id="services" className="relative z-10 py-12">
