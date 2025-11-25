@@ -5,6 +5,7 @@ export const uspData = [
     subtitle: 'Berpengalaman Lebih dari Satu Dekade',
     description: 'di Industri Otomotif Nasional',
     icon: 'experience',
+    image: '/images/usp1.webp',
     badge: 'CEPAT',
     highlights: [
       'Lebih dari 10 tahun pengalaman',
@@ -18,6 +19,7 @@ export const uspData = [
     subtitle: 'Satu-satunya Bengkel dengan Puluhan Jenis Layanan',
     description: 'dalam Satu Tempat',
     icon: 'service',
+    image: '/images/usp2.webp',
     badge: 'PRESISI',
     highlights: [
       'Complete service packages',
@@ -31,6 +33,7 @@ export const uspData = [
     subtitle: 'Peralatan Premium Berteknologi Tinggi',
     description: 'Hasil Akurat & Efisien',
     icon: 'technology',
+    image: '/images/usp3.webp',
     badge: 'CEPAT',
     highlights: [
       'National standard equipment',
@@ -44,6 +47,7 @@ export const uspData = [
     subtitle: 'Strategi Promosi Nasional yang Efektif',
     description: 'Mendongkrak Trafik Pelanggan',
     icon: 'promotion',
+    image: '/images/usp4.webp',
     badge: 'PRESISI',
     highlights: [
       'Nationwide promotions',
@@ -57,6 +61,7 @@ export const uspData = [
     subtitle: 'Laporan, Stok, Booking dan Manajemen',
     description: 'Real-Time',
     icon: 'digital',
+    image: '/images/usp5.webp',
     badge: 'PRESISI',
     highlights: [
       'Automated digital system',
@@ -71,6 +76,7 @@ export const uspData = [
     subtitle: 'Semua SDM & Operasional',
     description: 'Dijalankan oleh Raja Oto',
     icon: 'management',
+    image: '/images/usp6.webp',
     badge: 'CEPAT',
     highlights: [
       'Full operational support',
@@ -84,6 +90,7 @@ export const uspData = [
     subtitle: 'Kualitas Layanan',
     description: 'Profesional di Seluruh Cabang',
     icon: 'certification',
+    image: '/images/usp7.webp',
     badge: 'CEPAT',
     highlights: [
       'Nationally certified instructors',
@@ -97,6 +104,7 @@ export const uspData = [
     subtitle: 'Memperkuat Citra Premium dan',
     description: 'Kepercayaan Publik terhadap Raja Oto',
     icon: 'brand',
+    image: '/images/usp8.webp',
     badge: 'PRESISI',
     highlights: ['Founded by Zack Lee', 'Premium brand image', 'Public trust'],
   },
@@ -106,6 +114,7 @@ export const uspData = [
     subtitle: 'Pengalaman Pelanggan',
     description: 'Profesional & Berkelas',
     icon: 'design',
+    image: '/images/usp9.webp',
     badge: 'CEPAT',
     highlights: [
       'Modern workshop design',
@@ -119,6 +128,7 @@ export const uspData = [
     subtitle: 'Dukungan Alat & Sparepart',
     description: 'Langsung dari Jaringan Nasional',
     icon: 'supply',
+    image: '/images/usp10.webp',
     badge: 'PRESISI',
     highlights: [
       'Efficient supply chain',

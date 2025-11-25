@@ -1,4 +1,4 @@
-'use client'
+'use client';
 'use client';
 
 import React, { useRef } from 'react';
@@ -24,7 +24,7 @@ const ServiceCategory = ({ title, packages }) => {
       <div className="container mx-auto px-4 mb-10 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-3 capitalize inline-block relative">
           <span className="relative z-10">{title} Packages</span>
-          <span className="absolute bottom-1 left-0 w-full h-3 bg-[#FFD700]/20 -z-0 skew-x-12"></span>
+          <span className="absolute bottom-1 left-0 w-full h-3 bg-[#FFD700]/20 z-0 skew-x-12"></span>
         </h2>
         <p className="text-neutral-400 text-base md:text-lg max-w-2xl mx-auto">
           Pilihan terbaik untuk kebutuhan {title} mobil Anda
@@ -32,7 +32,7 @@ const ServiceCategory = ({ title, packages }) => {
       </div>
 
       {/* Carousel Container (Mobile) / Flex Grid (Desktop) */}
-      <div 
+      <div
         ref={scrollRef}
         className="flex overflow-x-auto gap-6 px-6 pb-8 snap-x snap-mandatory hide-scrollbar md:flex-wrap md:justify-center md:overflow-visible md:snap-none md:pb-0 md:px-0"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
