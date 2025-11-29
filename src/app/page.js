@@ -14,23 +14,9 @@ export default function Home() {
   }));
 
   return (
-    <main className="min-h-screen bg-[#050505] text-white pb-20 overflow-x-hidden selection:bg-[#FFD700] selection:text-black">
-      {/* Background Effects */}
-      <div className="fixed inset-0 z-0 pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#FFD700] rounded-full blur-[150px] opacity-10 animate-pulse"></div>
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-[#FFD700] rounded-full blur-[150px] opacity-5"></div>
-        <div className="absolute inset-0 bg-grid-pattern opacity-20"></div>
-      </div>
-
+    <main className="min-h-screen text-white pb-20 overflow-x-hidden selection:bg-[#FFD700] selection:text-black">
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden z-10">
-        <div className="absolute inset-0 bg-linear-to-b from-transparent via-[#050505]/50 to-[#050505] z-10"></div>
-        {/* Hero Background Image */}
-        <div className="absolute inset-0 z-0">
-          {/* Placeholder for hero image, using a dark overlay for now */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-neutral-800/30 via-[#050505] to-[#050505]"></div>
-        </div>
-
         <div className="container mx-auto px-4 relative z-20 text-center">
           <div className="inline-flex items-center gap-2 mb-6 px-5 py-2 border border-[#FFD700]/30 rounded-full bg-[#FFD700]/5 backdrop-blur-md animate-fade-in-up">
             <span className="w-2 h-2 rounded-full bg-[#FFD700] animate-ping"></span>
@@ -39,19 +25,20 @@ export default function Home() {
             </span>
           </div>
 
-          {/* Logo */}
+          {/* Logo - Hapus md:h-32 */}
           <div className="flex justify-center mb-8 animate-fade-in-up delay-100">
             <Image
               src="/logo.webp"
               alt="Raja Oto"
               width={300}
               height={150}
-              className="h-24 md:h-32 w-auto object-contain"
+              className="h-24 w-auto object-contain"
               priority
             />
           </div>
 
-          <p className="text-xl md:text-2xl text-neutral-300 max-w-3xl mx-auto mb-12 animate-fade-in-up delay-200 leading-relaxed font-light">
+          {/* Text - Hapus md:text-2xl */}
+          <p className="text-xl text-neutral-300 max-w-3xl mx-auto mb-12 animate-fade-in-up delay-200 leading-relaxed font-light">
             Solusi Perawatan{' '}
             <span className="text-white font-semibold">
               Kaki-Kaki & Mesin Mobil
@@ -59,13 +46,14 @@ export default function Home() {
             Terpercaya dengan Standar Nasional.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-4 justify-center items-center animate-fade-in-up delay-300">
+          {/* Buttons - Hapus md:flex-row, paksa vertikal */}
+          <div className="flex flex-col gap-4 justify-center items-center animate-fade-in-up delay-300 w-full">
             <a
               href={`https://wa.me/${contactInfo.phone.replace(
                 /\D/g,
                 ''
               )}?text=Halo%20Raja%20Oto,%20saya%20ingin%20konsultasi`}
-              className="group bg-[#FFD700] text-black font-bold text-lg px-10 py-4 rounded-full hover:bg-[#E5C100] transition-all transform hover:scale-105 hover:shadow-[0_0_30px_rgba(255,215,0,0.4)] flex items-center gap-3"
+              className="w-full max-w-xs group bg-[#FFD700] text-black font-bold text-lg px-10 py-4 rounded-full hover:bg-[#E5C100] transition-all transform hover:scale-105 hover:shadow-[0_0_30px_rgba(255,215,0,0.4)] flex items-center justify-center gap-3"
             >
               <span>Konsultasi Gratis</span>
               <svg
